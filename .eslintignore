@@ -1,0 +1,9 @@
+node_modules
+public
+*.config.js
+*.config.ts
+*.d.ts
+coverage/
+config/
+dist/
+.eslintrc.cjs

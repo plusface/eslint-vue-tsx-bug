@@ -1,0 +1,26 @@
+{
+  "name": "eslint-vue-tsx-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint \"src/**/*.{js,vue}\"",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "author": "wsl",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.32.0",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.17.4",
+    "@typescript-eslint/eslint-plugin": "^6.3.0",
+    "@typescript-eslint/parser": "^6.3.0",
+    "@vue/tsconfig": "^0.1.3",
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "typescript": "^5.1.6"
+  }
+}
